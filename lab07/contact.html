@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1 class="special">Contact</h1>
+
+        <p>
+            Chloe Scopa<br>
+            58 Reed Street<br>
+            Lexington, Ma, 02421
+        </p>
+        <P>
+            <a href="mailto:crscopa@syr.edu">Chloe Scopa Email</a>
+        </P>
+        <p>
+            <a href="https://www.linkedin.com/in/chloescopa/">
+                My LinkedIn Profile
+            <img src="../images/logo-sized.png" alt="linkedin logo">
+            </a>
+        </p>
+        <p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2943.4388592511723!2d-71.24481244859109!3d42.46095407907799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e39e804a5a38fb%3A0x6b674f8e7d447b78!2s58%20Reed%20St%2C%20Lexington%2C%20MA%2002421!5e0!3m2!1sen!2sus!4v1614961195868!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </p>
+        <form action="mailto:crscopa@syr.edu" method="POST">
+            <label for="firstname">Enter first name:</label>
+            <input type="text" name="firstname" id="firstname"><br>
+            <label for="comments">I'm Looking Forward To Hearing From You!:</label><br>
+            <textarea name="comments" id="comments" rows="10" cols="100">Type your message here:</textarea><br>
+           
+            <label for="communication">Preferred Method of Communication</label>
+            <select name="communication" id="communication">
+                <option value="Em">Email</option>
+                <option value="CP">Phone</option>
+                <option value="WP">Face to Face</option>
+                <option value="LI">Linkedin</option>
+            </select><br>
+        <input type="submit" value="Send Message">
+        </form>
+    </body>
+</html>
