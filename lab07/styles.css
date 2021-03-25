@@ -1,5 +1,5 @@
 h1, h2, h3, caption, th {color:#F56991;}
-a:link {color:#da9ff9;}
+a:link {color:#F56991;}
 a:visited {color:#000000;}
 
 body{
@@ -7,7 +7,7 @@ body{
 }
 
 nav {background-color:#e5e3ff;}
-nav a:link {color:#F56991;}
+nav a {color:#F56991;}
 nav a:hover{background-color:#FFC48C;}
 nav {padding: 10px}
 nav {margin-bottom: 30px}
