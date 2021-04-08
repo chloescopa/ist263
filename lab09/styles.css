@@ -1,0 +1,28 @@
+h1, h2, h3, caption, th {color:#F56991;}
+a:link {color:#DA9FF9;}
+
+body{
+    background-color:#eafcd2;
+}
+
+nav {background-color:#e5e3ff;}
+nav a {color:#F56991;}
+nav a:hover{background-color:#FFC48C;}
+nav {padding: 10px}
+nav {margin-bottom: 30px}
+
+p, tr, td, li, form {color:#91a6f8;}
+
+.quote {float:right;}
+.clear {clear:both;}
+header {float:right;}
+header {margin:30px;}
+
+.address{float:left;}
+.box1, .box2 {background-color:#dee9fc;
+    border-radius: 2em;
+    margin: 20px;}
+.box1 {padding: 15px;}
+.box2 {padding: 15px;}
+.box2 {display: flex;}
+.map, .form,.address, .email {margin: 10px;}
