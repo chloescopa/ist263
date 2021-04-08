@@ -26,3 +26,5 @@ header {margin:30px;}
 .box2 {padding: 15px;}
 .box2 {display: flex;}
 .map, .form,.address, .email {margin: 10px;}
+
+.banner{max-width: 100%;}
