@@ -31,4 +31,8 @@ header {margin:30px;}
 .box2 {flex-wrap: wrap;}
 
 @media only screen and (max-width: 600px)
-{nav a {display:black;}}
+{nav a {display:block;}
+    nav a {max-width: 100%;}
+span {display: none;}
+}
+.clear {clear:both;}
