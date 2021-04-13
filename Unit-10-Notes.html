@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Unit 10 Notes Accessibility</title>
+    </head>
+    <body>
+        <h1>Accessibility</h1> 
+        <!--you can only have 1 h1 tag on a page for main headings-->
+        <!--h2 for subheading, h3 for sub sub heading etc.-->
+
+        <img src="../images/logo-sized.png" alt="linkedin logo">
+        <!--nothing in quotes means screen reader ignores-->
+        <!--do not put image of or photo of -->
+        
+        <a href="#maincontent" id="skip">Skip to Content</a>
+        <!--pound sign says we are linking within page to an element that had an id of maincontent-->
+        <a href="http://wwww.google.com" tabindex="3">Google</a>
+        <a href="http://www.amazon.com" tabindex="2">Amazon</a>
+        <a href="http://www.ebay.com" tabindex="1">Ebay</a>
+        <!--tab index: for complex layouts determine order of items tabbed through-->
+        
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+
+        <a id="maincontent"></a>
+        <!--here's the thing the anchro tag links to -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    </body>
+</html>
