@@ -11,7 +11,7 @@ nav a:hover{background-color:#eafcd2;}
 nav {padding: 0.625em;}
 nav {margin-bottom: 1.875em;}
 
-p, tr, td, li, form {color:black}
+p, tr, td, li, form {color:black;}
 
 .quote {float:right;}
 .clear {clear:both;}
