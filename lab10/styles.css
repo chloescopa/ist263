@@ -6,12 +6,12 @@ body{
 }
 
 nav {background-color:#e5e3ff;}
-nav a {color:#F56991;}
+nav a {color:black;}
 nav a:hover{background-color:#eafcd2;}
 nav {padding: 0.625em;}
 nav {margin-bottom: 1.875em;}
 
-p, tr, td, li, form {color:#91a6f8;}
+p, tr, td, li, form {color:black}
 
 .quote {float:right;}
 .clear {clear:both;}
