@@ -8,31 +8,43 @@ body{
 nav {background-color:#e5e3ff;}
 nav a {color:#F56991;}
 nav a:hover{background-color:#FFC48C;}
-nav {padding: 10px}
-nav {margin-bottom: 30px}
+nav {padding: 0.625em;}
+nav {margin-bottom: 1.875em;}
 
 p, tr, td, li, form {color:#91a6f8;}
 
 .quote {float:right;}
 .clear {clear:both;}
 header {float:right;}
-header {margin:30px;}
+header {margin: 1.875em;}
 
 .address{float:left;}
 .box1, .box2 {background-color:#dee9fc;
     border-radius: 2em;
-    margin: 20px;}
-.box1 {padding: 15px;}
-.box2 {padding: 15px;}
+    margin: 1.25em;}
+.box1 {padding: 0.9375em;}
+.box2 {padding: 0.9375em;}
 .box2 {display: flex;}
 .map, .form,.address, .email {margin: 10px;}
 
 .banner {max-width: 100%;}
 .box2 {flex-wrap: wrap;}
 
-@media only screen and (max-width: 600px)
+@media only screen and (max-width: 37.5em)
 {nav a {display:block;}
     nav a {max-width: 100%;}
 span {display: none;}
 }
 .clear {clear:both;}
+
+#skip {
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+#skip:focus {
+    position: absolute;
+    left: 10px;
+}

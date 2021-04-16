@@ -1,0 +1,106 @@
+/* how to add padding */
+.box1 {padding: 15px;}
+
+/*inherited properties */
+h1 {color:red;}
+h1 .special {color:lime} /* this would override the above */
+
+/* Pseudo-Selectors */
+a:link {color:#00ff00;} /* applies to style unclicked, unvisited links */
+a:visited {color:#0000ff} /* applies to style to links that have already been clicked */
+a:hover {color:#999999} /* applies when the mouse pointer is over the element */
+
+
+/* Class Selectors */
+p .special {color:orange} /* all paragraphs with class=special will be orange */
+
+/* Element Selector */
+nav {color:olive}
+
+/* Descendant Selector */
+nav a {color:#F56991;}
+li em {color:salmon}
+div p {
+    background-color: seagreen;
+}
+/* Descendant selector selects all <p> elements inside the div tag */
+
+/* ID Selector */
+#myheading {color:pink;}
+
+/* Group Selector */
+.map, .form, .address, .email {margin:10px;}
+p, tr, td, li, form {color:pink}
+
+/* Background Color for Entire Page */
+body {background-color: orange;}
+
+/* Padding: Applies to all sides CLOCKWISE */
+.blockquote {padding: 10px;} 
+/* applies to all sides */
+.blockquote {padding: 10px 6px 4px 10px;}
+/* applies clockwise to top, right, bottom, and left edges consecutively */
+
+/* Margins */
+.box1, .box2 {background-color: paleturquoise;
+    border-radius: 2em; 
+    margin: 20px}
+
+/* Display Block */
+nav a {display:block;}
+/* the block value will place the nav on it's own line and display as a block taking up an entire line causing every other nav to fall beneath and do the same. */
+
+/* Box Model */
+p {
+    background-color:#ffffff;
+    /* to calculate the width it is the width of your box + padding x 2 + border x 2 +margin x 2 */
+    /* for our box: 300 px + 40 px + 10px + 100px = 450 pixels */
+    width: 300px;
+    padding: 20px;
+    margin: 50px;
+    border: 5px solid #000000;
+    /* this is a combo property value, it's documented in the css spec */
+}
+
+/* Div and Div Class */
+.box1, .box2 {background-color:#dee9fc;
+    border-radius: 2em;
+    margin: 20px;}
+.box1 {padding: 15px;}
+.box2 {padding: 15px;}
+.box2 {display: flex;}
+
+/* Span */
+@media only screen and (max-width: 600px)
+{nav a {display:block;}
+    nav a {max-width: 100%;}
+span {display: none;}
+}
+.clear {clear:both;}
+
+/* Float and Clear Float*/
+.quote {float:right;}
+.clear {clear:both;}
+
+.firstimage{float:left;}
+.stopfloat {clear:both;}
+/* in html, img has these two class names (.firstimage, .stopfloat) is .stopfloat. stops following texts from wrapping around it */
+
+/* FlexBox: LOOK AT UNIT 8 NOTES*/
+
+/* Media Query applies to viewportr */
+
+@media only screen and (max-width: 600px) /* scales image to fit the viewport */
+/* the above only specifies the styles that will be applied to small phones */
+{nav a {display:block;}
+    nav a {max-width: 100%;}
+span {display: none;}
+}
+.clear {clear:both;}
+
+/* if you give it display block, it will make the container box wrap to the next line on a smaller screen */
+
+div a {color:green;}
+
+.columna {float:right;}
+.columnb {float:left;}
