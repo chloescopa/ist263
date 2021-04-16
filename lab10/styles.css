@@ -1,4 +1,5 @@
-h1, h2, h3, caption, th {color:#ff0055;}
+h1, h2, h3 {color:#ff0055;}
+caption, th {color:black}
 a:link {color:#ff0055;}
 
 body{
