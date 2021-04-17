@@ -1,6 +1,6 @@
 h1, h2, h3 {color:#ff0055;}
 caption, th {color:#DB0049;}
-a:link {color:#DB0049;}
+a:link {color:#BD003F;}
 
 body{
     background-color:#eafcd2;
@@ -26,7 +26,7 @@ header {margin: 1.875em;}
 .box1 {padding: 0.9375em;}
 .box2 {padding: 0.9375em;}
 .box2 {display: flex;}
-.map, .form,.address, .email {margin: 10px;}
+.map, .form,.address, .email {margin: 0.625em;}
 
 .banner {max-width: 100%;}
 .box2 {flex-wrap: wrap;}
@@ -40,12 +40,12 @@ span {display: none;}
 
 #skip {
     position: absolute;
-    left: -999px;
+    left: -62.4375em;
     background-color: white;
-    border: 1px solid black;
+    border: 0.0625em solid black;
 }
 
 #skip:focus {
     position: absolute;
-    left: 10px;
+    left: 0.625em;
 }
