@@ -5,6 +5,12 @@
     <title>OrderForm</title>
 </head>
 <body>
+    <nav>
+        <a href="page1.html">About the Artist</a> <span>|</span>
+        <a href="page2.html">Lookbook</a> <span>|</span>
+        <a href="page3.html">Order Form</a> <span>|</span>
+        <a href="page4.html">Payment Information</a>
+    </nav>
     <header>
         <img src="images/butterfly1.gif" alt="butterfly" class="butterfly1"
         width="230"
@@ -19,11 +25,11 @@
     <h1>Want a Cosmic Knit of Your Own?</h1>
     <h2>Order Yours Here!</h2>
     <p>
-    *Please notice that this is a hand-knitted sweater and will be made especially for you after you place your order. Please allow 2-3 weeks for your order to be shipped.* 
+    *Please notice that this is a hand-knitted sweater and will be made especially for you after you place your order. Please allow 2-3 weeks for your order to be shipped. Sweaters Start at $60!* 
     </p>
    <div>
        <div class="step1"></div>
-    <form>
+       <form action="mailto:oliviascopa@gmail.com" method="POST">
     <h4>Step 1: Describe Your Vibes:</h4>
         <label for="describevibe">Tell us a little bit about you and your style!</label><br>
             <textarea name="comments" id="comments" rows="10">Type your message here:</textarea><br>
@@ -83,8 +89,8 @@
         <label for="describecolor">Please describe what color(s) you would like!</label><br>
             <textarea name="commentscolor" id="color" rows="10">Type your message here:</textarea><br>
         <div>
-
 </div>
+<input type="submit" value="Submit!">
 </form>
 </body>
     

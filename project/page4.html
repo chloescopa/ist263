@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <Title>Payment</Title>
+    </head>
+    <body>
+        <nav>
+            <a href="page1.html">About the Artist</a> <span>|</span>
+            <a href="page2.html">Lookbook</a> <span>|</span>
+            <a href="page3.html">Order Form</a> <span>|</span>
+            <a href="page4.html">Payment Information</a>
+        </nav>
+        <header>
+            <img src="images/butterfly1.gif" alt="butterfly" class="butterfly1"
+            width="230"
+            height="120"/>
+            <img src="images/logo.jpeg" alt="cklogo" class="logo"
+            width="230"
+            height="120"/>
+            <img src="images/butterfly1.gif" alt="butterfly" class="butterfly1"
+            width="230"
+            height="120"/>
+        </header>
+        <h1>Payment Information</h1>
+        <h3>Let's breakdown your payment:</h3>
+        <ul>
+            <li>Your very own Cosmic Knit made especially for YOU: $60</li>
+            <li>Shipping: $10</li>
+            <li>Grand total: $70</li>
+        </ul>
+    <form action="mailto:oliviascopa@gmail.com" method="POST">
+    <div class="form-container">
+      <div class="personal-information">
+        <p>Please fill out the information below:</p>
+      </div> <!-- end of personal-information -->
+           
+          <input id="column-left" type="text" name="first-name" placeholder="First Name"/>
+          <input id="column-right" type="text" name="last-name" placeholder="Last Name"/>
+          <input id="input-field" type="text" name="number" placeholder="Card Number"/>
+          <input id="column-left" type="text" name="expiry" placeholder="MM / YY"/>
+          <input id="column-right" type="text" name="cvc" placeholder="CCV"/>
+         
+          <div class="card-wrapper"></div>
+      
+          <input id="input-field" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Street Address"/>
+          <input id="column-left" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="City"/>
+          <input id="column-right" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP code"/>
+          <input id="input-field" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>
+          <input id="input-button" type="submit" value="Submit"/>
+    </form>
+  </div>
+  <p>Thank you for your order!</p>
+    </body>
+</html>
