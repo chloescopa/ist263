@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="utf-8">
+        <title> Unit 11 Participation Activity </title>
+        <script>
+            function leftform (){
+            //alert ('you left this form element');
+            document.getElementById("message").innerHTML="you left this form element";
+        }
+
+        </script>
+    </head>
+    <body>
+        <form action="mailto:crscopa@syr.edu" method="POST">
+            <label for="firstname">Enter first name:</label>
+            <input type="text" name="firstname" id="firstname" onblur="leftform();"><br>
+            <label for="comments">I'm Looking Forward To Hearing From You!:</label><br>
+            <textarea name="comments" id="comments" rows="10">Type your message here:</textarea><br>
+            <input type="submit" value="Send Message">
+        </form>
+        <p>Lorem Ipsum</p>
+        <div id="message"></div> <!--This is where I'm gonna bring up the message-->
+    </body>
+</html>
