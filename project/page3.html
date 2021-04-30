@@ -3,14 +3,9 @@
 <head>
     <meta charset="utf-8">
     <title>OrderForm</title>
+    <link rel ="stylesheet" href="projectstyles.css">
 </head>
 <body>
-    <nav>
-        <a href="page1.html">About the Artist</a> <span>|</span>
-        <a href="page2.html">Lookbook</a> <span>|</span>
-        <a href="page3.html">Order Form</a> <span>|</span>
-        <a href="page4.html">Payment Information</a>
-    </nav>
     <header>
         <img src="images/butterfly1.gif" alt="butterfly" class="butterfly1"
         width="230"
@@ -22,26 +17,30 @@
         width="230"
         height="120"/>
     </header>
+    <nav>
+        <a href="page1.html">About the Artist</a> <span>|</span>
+        <a href="page2.html">Lookbook</a> <span>|</span>
+        <a href="page3.html">Order Form</a> <span>|</span>
+        <a href="page4.html">Payment Information</a>
+    </nav>
     <h1>Want a Cosmic Knit of Your Own?</h1>
     <h2>Order Yours Here!</h2>
     <p>
-    *Please notice that this is a hand-knitted sweater and will be made especially for you after you place your order. Please allow 2-3 weeks for your order to be shipped. Sweaters Start at $60!* 
+    <strong>*Please notice that this is a hand-knitted sweater and will be made especially for you after you place your order. Please allow 2-3 weeks for your order to be shipped. Sweaters Start at $60!*</strong>
     </p>
-    <img src="images/sweatergraphic.jpeg" alt="sweatergraphic" class="graphic1"
-    width="300"
-    height="400"/>
-    <img src="images/sweatergraphic2.jpeg" alt="sweatergraphic" class="graphic2"
-    width="300"
-    height="400"/>
+    <img src="images/star.gif" alt="star" class="star"
+        width="100"
+        height="100"/>
+    <div class="holograph">
     <form action="mailto:oliviascopa@gmail.com" method="POST">
+    <main>
     <div>
-       <div class="step1"></div>
+       <div class="step1">
     <h4>Step 1: Describe Your Vibes:</h4>
         <label for="describevibe">Tell us a little bit about you and your style!</label><br>
             <textarea name="describevibe" id="describevibe" rows="10">Type your message here:</textarea><br>
     </div>
-    <div>
-        <div class="step2"></div>
+    <div class="step2">
     <h4>Step 2: Select Your Zodiac Sign:</h4>
     <label for="zodiac">What's Your Sign?</label>
             <select name="zodiac" id="zodiac">
@@ -70,8 +69,7 @@
                 </option>
             </select><br>
         </div>
-        <div>
-            <div class="step3"></div>
+        <div class="step3">
         <h4>Step 3: Sizing Questionnaire</h4>
         <p>What Size Do You Normally Wear?</p>
         <label for="size1">Select Your Size:</label>
@@ -89,15 +87,15 @@
         <option value="true">True to Size</option>
         </select><br>
         </div>
-    <div>
-        <div class="step4"></div>
+        <div class="step4">
     <h4>Step 4: Choose Your Colors:</h4>
         <label for="describecolor">Please describe what color(s) you would like!</label><br>
             <textarea name="describecolor" id="describecolor" rows="10">Type your message here:</textarea><br>
     </div>
-<div>
     <input type="submit" value="Submit!">
 </div>
+</div>
+</main>
 </form>
 </body>
     

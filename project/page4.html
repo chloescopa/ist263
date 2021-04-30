@@ -3,14 +3,9 @@
     <head>
         <meta charset="utf-8">
         <Title>Payment</Title>
+        <link rel ="stylesheet" href="projectstyles.css">
     </head>
     <body>
-        <nav>
-            <a href="page1.html">About the Artist</a> <span>|</span>
-            <a href="page2.html">Lookbook</a> <span>|</span>
-            <a href="page3.html">Order Form</a> <span>|</span>
-            <a href="page4.html">Payment Information</a>
-        </nav>
         <header>
             <img src="images/butterfly1.gif" alt="butterfly" class="butterfly1"
             width="230"
@@ -22,35 +17,29 @@
             width="230"
             height="120"/>
         </header>
+        <nav>
+            <a href="page1.html">About the Artist</a> <span>|</span>
+            <a href="page2.html">Lookbook</a> <span>|</span>
+            <a href="page3.html">Order Form</a> <span>|</span>
+            <a href="page4.html">Payment Information</a>
+        </nav>
         <h1>Payment Information</h1>
-        <h3>Let's breakdown your payment:</h3>
+        <p><strong>Let's breakdown your payment:</strong></p>
+    <main>
+    <div class="payment">
         <ul>
             <li>Your very own Cosmic Knit made especially for YOU: $60</li>
             <li>Shipping: $10</li>
             <li>Grand total: $70</li>
         </ul>
-    <form action="mailto:oliviascopa@gmail.com" method="POST">
-    <div>
-    <div class="form-container"></div>
-    <div class="personal-information"></div>
-        <p>Please fill out the information below:</p>
     </div>
-           
-          <input id="column-left1" type="text" name="first-name" placeholder="First Name"/>
-          <input id="column-right1" type="text" name="last-name" placeholder="Last Name"/>
-          <input id="input-field1" type="text" name="number" placeholder="Card Number"/>
-          <input id="column-left2" type="text" name="expiry" placeholder="MM / YY"/>
-          <input id="column-right2" type="text" name="cvc" placeholder="CCV"/>
-         
-          <div class="card-wrapper"></div>
-      
-          <input id="input-field2" type="text" name="streetaddress" required="required" autocomplete="on" maxlength="45" placeholder="Street Address"/>
-          <input id="column-left3" type="text" name="city" required="required" autocomplete="on" maxlength="20" placeholder="City"/>
-          <input id="column-right3" type="text" name="zipcode" required="required" autocomplete="on" pattern="[0-9]*" maxlength="5" placeholder="ZIP code"/>
-          <input id="input-field3" type="email" name="email" required="required" autocomplete="on" maxlength="40" placeholder="Email"/>
-          <input id="input-button" type="submit" value="Submit"/>
-    </form>
-  <p>Thank you for your order!</p>
+    <div class="venmo">
+    <img src="images/venmo.logo.png" alt=venmologo class="venmo.logo"
+        width="50"
+        height="50"/>  Please venmo <strong>@oliviascopa</strong>  to place and confirm your order!
+    </div>
+  <p>Thank you for supporting small buisness!</p>
+    </main> 
   <img src="images/butterfly2.gif" alt="butterfly" class="butterfly2"
         width="230"
         height="120"/>
