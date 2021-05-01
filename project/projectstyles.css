@@ -38,3 +38,10 @@ padding:1em;}
 
 .holograph {background-image: url(images/holographic.jpeg);}
 .butterflybg {background-image: url(images/butterflybg.jpeg);}
+
+@media only screen and (max-width: 37.5em)
+{nav a {display:block;}
+    nav a {max-width: 100%;}
+span {display: none;}
+}
+.clear {clear:both;}
