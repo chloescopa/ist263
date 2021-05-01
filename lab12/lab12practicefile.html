@@ -24,17 +24,16 @@
         
         #venus, #earth, #mars, #jupiter, #saturn, #uranus, #neptune, #venusinfo, #earthinfo, #marsinfo, #jupiterinfo, #saturninfo, #uranusinfo, #neptuneinfo {display:none;}
 
-        #mercury, #mercuryinfo{display:block;}
+        #mercury, #mercuryinfo {display:block;}
 
-        #bigimages{float:left;}
-        .clear{clear:both;}
+        #bigimages {float:left;}
+        .clear {clear:both;}
 
     </style>
     <script>
-       function PlanetsOff (){
+       function PlanetsOff () {
            document.getElementById ('mercury').style.display='none';
            document.getElementById ('mercuryinfo').style.display='none';
-           document.getElementById ('marsinfo').style.display='none';
            document.getElementById ('venus').style.display='none';
            document.getElementById ('venusinfo').style.display='none';
            document.getElementById ('earth').style.display='none';
@@ -132,7 +131,7 @@
             <p>Neptune is the eighth and farthest-known Solar planet from the Sun. In the Solar System, it is the fourth-largest planet by diameter, the third-most-massive planet, and the densest giant planet. It is 17 times the mass of Earth, slightly more massive than its near-twin Uranus.</p>
         </div>
     </div>
-    <div class=clear></div>
+    <div class="clear"></div>
     <div id="thumbnails">
         <img src="https://laferger.github.io/ist263/images/mecury.jpg" alt="mercury" id="mercurythumb" onclick="PlanetsOff(); MercuryOn();">
         <img src="https://laferger.github.io/ist263/images/venus.jpg" alt="venus" id="venusthumb" onclick="PlanetsOff(); VenusOn();">
