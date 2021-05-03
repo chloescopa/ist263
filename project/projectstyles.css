@@ -36,9 +36,6 @@ margin-right: auto;}
 .courtneybg,.alanabg,.chloebg,.marcelabg,.mehabg,.bellabg,.oliviabg,.courtney2bg {background-color: #d4fff5;
 padding:1em;}
 
-.holograph {background-image: url(images/holographic.jpeg);}
-.butterflybg {background-image: url(images/butterflybg.jpeg);}
-
 @media only screen and (max-width: 37.5em)
 {nav a {display:block;}
     nav a {max-width: 100%;}
