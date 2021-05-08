@@ -40,6 +40,6 @@ padding:1em;}
 {nav a {display:block;}
     nav a {max-width: 100%;}
 span {display: none;}
-header {display: none;}
+header {display:none;}
 }
 .clear {clear:both;}
