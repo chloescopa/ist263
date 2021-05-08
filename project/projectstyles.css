@@ -2,6 +2,7 @@ body{
     background-color:#d4fff5;
 }
 h1, h2, h4 {color:#ff0055;}
+h1, h3, h2, h4, nav a {font-family: 'Boogaloo', cursive;}
 nav {background-color:#e5e3ff;}
 nav {color:black;}
 nav a:hover{background-color:	#d9ffcd;}
@@ -40,6 +41,6 @@ padding:1em;}
 {nav a {display:block;}
     nav a {max-width: 100%;}
 span {display: none;}
-header {display:none;}
+.butterfly1, .butterfly15 {display:none;}
 }
 .clear {clear:both;}
