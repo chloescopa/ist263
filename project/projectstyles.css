@@ -9,10 +9,6 @@ nav a:hover{background-color:	#d9ffcd;}
 nav {padding: 1em;}
 nav {margin-bottom: 1.875em;}
 nav{border-radius: 1em;}
-.artist{float:left;
-padding:10px;
-border-radius: 1em;}
-.bio{float:clear;}
 h1,h2,h3 {text-align:center;}
 .butterfly2{
     display: block;
@@ -20,9 +16,13 @@ h1,h2,h3 {text-align:center;}
     margin-right: auto;}
 .header{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
+.artist{float:left;
+    padding:10px;
+    border-radius: 1em;}   
+.bio{float:clear;}
+.footer{float:clear;}
 .main{text-align:center;}
 
 .star{display: block;
@@ -34,7 +34,7 @@ margin-right: auto;}
     margin-left: auto;
     margin-right: auto;}
 .space{ background-image: url(images/space.jpeg);}
-.courtneybg,.alanabg,.chloebg,.marcelabg,.mehabg,.bellabg,.oliviabg,.courtney2bg,.littleredbg {background-color: #d4fff5;
+.courtneybg,.alanabg,.chloebg,.marcelabg,.mehabg,.bellabg,.oliviabg,.courtney2bg,.littleredbg,.allsweatersbg {background-color: #d4fff5;
 padding:1em;}
 
 @media only screen and (max-width: 37.5em)
@@ -42,5 +42,6 @@ padding:1em;}
     nav a {max-width: 100%;}
 span {display: none;}
 .butterfly1, .butterfly15 {display:none;}
+.logo {margin:auto;}
 }
 .clear {clear:both;}
