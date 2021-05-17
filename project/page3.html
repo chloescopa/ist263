@@ -8,16 +8,15 @@
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Boogaloo&display=swap" rel="stylesheet">
+<script>
+    function ThankYou (){
+        alert ('Thank you for your order!')
+    }
+</script>
 </head>
 <body>
-    <header>
-        <img src="images/butterfly1.gif" alt="butterfly" class="butterfly1"
-        width="230"
-        height="120"/>
-        <img src="images/logo.jpeg" alt="cklogo" class="logo"
-        width="230"
-        height="120"/>
-        <img src="images/butterfly1.gif" alt="butterfly" class="butterfly15"
+    <header class="logo3">
+        <img src="images/logo-resized.jpg" alt="cklogo" class="logo"
         width="230"
         height="120"/>
     </header>
@@ -29,8 +28,8 @@
     </nav>
     <h1>Want a Cosmic Knit of Your Own?</h1>
     <h2>Order Yours Here!</h2>
-    <p>
-    <strong>*Please notice that this is a hand-knitted sweater and will be made especially for you after you place your order. Please allow 2-3 weeks for your order to be shipped. Sweaters Start at $60!*</strong>
+     <p class="note">
+    <strong>*Please note that this is a hand-knitted sweater and will be made especially for you after you place your order. Please allow 2-3 weeks for your order to be shipped. Sweaters Start at $60!*</strong>
     </p>
     <figure>
     <img src="images/star.gif" alt="star" class="star"
@@ -38,6 +37,7 @@
         height="100"/>
     </figure>
 <main>
+<div class="formrow">
     <form action="mailto:oliviascopa@gmail.com" method="POST">
     <div class="step1">
     <h4>Step 1: Describe Your Vibes:</h4>
@@ -45,7 +45,7 @@
             <textarea name="describevibe" id="describevibe" rows="10">Type your message here:</textarea><br>
     </div>
     <div class="step2">
-    <h4>Step 2: Select Your Zodiac Sign:</h4>
+    <h4 class="step2select">Step 2: Select Your Zodiac Sign:</h4>
     <label for="zodiac">What's Your Sign?</label>
             <select name="zodiac" id="zodiac">
                 <option value="Aries">Aries (March 21 -April 19)</option>
@@ -95,8 +95,9 @@
     <h4>Step 4: Choose Your Colors:</h4>
         <label for="describecolor">Please describe what color(s) you would like!</label><br>
             <textarea name="describecolor" id="describecolor" rows="10">Type your message here:</textarea><br>
-    <input type="submit" value="Submit!">
+    <input type="submit" value="Submit!" onclick="ThankYou();">
     </div>
+</div>
     </form>
 </main>
 </body>   
