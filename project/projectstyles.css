@@ -92,11 +92,17 @@ nav a {max-width: 100%;
 padding:10px;}
 span {display: none;}
 .logo {margin:auto;}
-.images1row {flex-wrap:wrap;
+.images1row {
+flex-wrap:wrap;
+max-width:100%;
+width:500px;
 margin: 0 auto;}
 .bio{clear:both;}
-.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;
-margin:auto;}
+.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{
+display:block;
+flex-wrap:wrap;
+max-width:500px;
+margin:0 auto;}
 .thankyou{font-size:15pt;}
 .paymentinfo{margin-left:0px;
 margin-right:0px;}}
