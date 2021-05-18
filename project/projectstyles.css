@@ -81,7 +81,6 @@ span {display: none;}
 .images1row {flex-wrap:wrap;
 margin: 0 auto;}
 .bio{clear:both;}
-.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;
-max-width:600px;}
+.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;}
 .thankyou{font-size:15pt;}}
 .clear {clear:both;}
