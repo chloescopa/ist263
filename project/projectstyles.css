@@ -68,10 +68,23 @@ background-image:url(images/allsweaters.png);}
 .paymentinfo,.payment,.thankyou,.venmo{font-size:16pt;}
 .thankyou{text-align:center;
 font-size:20pt;}
-.paymentinfo{margin-left:5px;}
+.payment{text-align:center;}
+ul{display:inline-block;
+    text-align:left;
+    background-color:#ffe6fa;}
+.venmo{text-align:center;
+padding-bottom:20px;
+padding-top:20px;}
+.paymentinfo{margin-left:5px;
+    text-align:center;
+    background-color:#ffe6fa;
+    border-radius:16px;
+    margin-left:200px;
+    margin-right:200px;}
 .h3p1{font-size:16pt;}
-.paytitle{text-align:left;
+.paytitle{text-align:center;
 font-size:25pt;}
+.breakdown{padding-top:20px;}
 
 @media only screen and (max-width: 600px)
 {nav a {display:block;}
@@ -84,5 +97,7 @@ margin: 0 auto;}
 .bio{clear:both;}
 .firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;
 margin:auto;}
-.thankyou{font-size:15pt;}}
+.thankyou{font-size:15pt;}
+.paymentinfo{margin-left:0px;
+margin-right:0px;}}
 .clear {clear:both;}
