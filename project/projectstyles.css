@@ -56,6 +56,9 @@ margin-right: auto;}
 .fifthrow{display:flex;}
 .courtney1,.alana,.chloe,.marcela,.meha,.bella,.olivia,.thecourtney2,.littlered,.julia {
 flex:1;}
+.courtneybg,.alanabg,.chloebg,.marcelabg,.mehabg,.bellabg,.oliviabg,.courtney2bg,.littleredbg,.juliabg{
+padding-left:50px;
+padding-right:50px;}
 .formrow{
 display:flex;
 flex-wrap:wrap;
