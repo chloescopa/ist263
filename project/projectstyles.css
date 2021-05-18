@@ -75,12 +75,14 @@ font-size:25pt;}
 
 @media only screen and (max-width: 600px)
 {nav a {display:block;}
-nav a {max-width: 100%;}
+nav a {max-width: 100%;
+padding:10px;}
 span {display: none;}
 .logo {margin:auto;}
 .images1row {flex-wrap:wrap;
 margin: 0 auto;}
 .bio{clear:both;}
-.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;}
+.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;
+margin:auto;}
 .thankyou{font-size:15pt;}}
 .clear {clear:both;}
