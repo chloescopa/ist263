@@ -70,7 +70,7 @@ font-size:20pt;}
 .paytitle{text-align:left;
 font-size:25pt;}
 
-@media only screen and (max-width: 37.5em)
+@media only screen and (max-width: 600px)
 {nav a {display:block;}
 nav a {max-width: 100%;}
 span {display: none;}
@@ -79,6 +79,6 @@ span {display: none;}
 margin: 0 auto;}
 .bio{clear:both;}
 .firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow{display:block;
-max-width:100%;}
+max-width:600px;}
 .thankyou{font-size:15pt;}}
 .clear {clear:both;}
